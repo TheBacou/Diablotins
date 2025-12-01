@@ -1,4 +1,5 @@
-<html><head>
+<html>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>RedGear Studio</title>
@@ -12,71 +13,69 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/navbarItems.css">
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/repository.js"></script>
     <script src="assets/js/navbarlist.js"></script>
     <script src="assets/js/copyright.js"></script>
     <script src="assets/js/incidents.js"></script>
+
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 
 <body style="background-color: var(--background);">
-    
 
-    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;"><img class="rounded" src="https://lescopainsdaccords.com/wp-content/uploads/2023/04/LCDA.png" width="150" height="150" style="margin-top: 30px;">
-        
-        <p style="color: var(--secondary-text-color);" name="bio">
-
-        </p>
-        
+    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px; text-align: center; margin: 55px;">
+        <img class="rounded" src="https://lescopainsdaccords.com/wp-content/uploads/2023/04/LCDA.png" width="150" height="150" style="margin-top: 30px;">
+        <p style="color: var(--secondary-text-color);" name="bio"></p>
     </header>
-    
-    
-    
 
     <div id="commands">
         <div class="container">
             <h2>Projets des copains</h2>
+
             <div class="accordion" id="latest-incidents">
-
                 <!-- liste des 5 derniers incidents -->
+                <div class="accordion-item">
+                    <button id="accordion-button" aria-expanded="false" onclick="incidents(this)">
+                        <img src="./Snapchat-1812857626.jpg" class="profil">
+                        <img src="./IMG_20251126_140223.jpg" class="profil">
+                        <img src="./Snapchat-1862652808.jpg" class="profil">
+                        <img src="./IMG_20251201_130008.jpg" class="profil">
+                        <span>Console</span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
 
-            <div class="accordion-item"><button id="accordion-button" aria-expanded="false" onclick="incidents(this)"><img src="./Snapchat-1812857626.jpg" class="profil"><img src="./IMG_20251126_140223.jpg" class="profil"><img src="./Snapchat-1862652808.jpg" class="profil"><img src="./IMG_20251201_130008.jpg" class="profil"><span>Console</span><span class="icon" aria-hidden="true"></span></button><button id="accordion-button" aria-expanded="false" onclick="incidents(this)"><img src="./IMG_20251126_140223.jpg" class="profil"><img src="./IMG_20251201_130008.jpg" class="profil"><span>Kart maison</span><span class="icon" aria-hidden="true"></span></button><div class="accordion-content"><p>**Domaine non fonctionnel**
+                    <div class="accordion-content">
+                        <p>
+                            Faire une console de jeu vidéo
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-Domaine plus valide, à voir plus tard pour en récupérer un nouveau.</p></div></div></div>
+            
+            <div class="accordion" id="latest-incidents">
+                <!-- liste des 5 derniers incidents -->
+                <div class="accordion-item">
+                    <button id="accordion-button" aria-expanded="false" onclick="incidents(this)">
+                        <img src="./IMG_20251126_140223.jpg" class="profil">
+                        <img src="./IMG_20251201_130008.jpg" class="profil">
+                        <span>Kart maison</span>
+                        <span class="icon" aria-hidden="true"></span>
+                    </button>
+
+                    <div class="accordion-content">
+                        <p>
+                            Faire un Kart maison, chassis, moteur, roue etc etc
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-
-    <!-- <div class="team-clean" style="background: rgba(0,0,0,0);display: none;">
-        <div class="container" style="filter: blur(0px);padding-bottom: 0px;">
-            <h3 class="text-center name" style="color: var(--secondary-text-color)">Ours partners</h3>
-            <div class="intro"></div>
-            <div class="row row-cols-4 d-flex d-xl-flex justify-content-center justify-content-xl-center people"
-                style="padding-bottom: 0px;">
-                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/" target="_blank">
-                        <img class="rounded-circle partner"
-                            src="https://cdn.discordapp.com/icons/679780145313480735/a_0cd3b55c7404471214d59aaec23f53a5.png?size=4096">
-                        <h3 class="text-center name" style="color: var(--secondary-text-color)">Okoura</h3>
-                    </a></div>
-                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/" target="_blank">
-                        <img class="rounded-circle partner"
-                            src="https://media.discordapp.net/attachments/1012646731302834186/1069196041250930688/logo.png"></a>
-                </div>
-                <div class="col-auto col-md-6 col-lg-4 yeet"><a href="https://discord.gg/" target="_blank">
-                        <img class="rounded-circle partner"
-                            src="https://media.discordapp.net/attachments/1012646731302834186/1069196041250930688/logo.png"></a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    
-    
-
-
-
-
-
-</body></html>
+</body>
+</html>
